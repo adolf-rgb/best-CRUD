@@ -1,0 +1,11 @@
+# 1. Create database
+Import database.sql into MySQL
+
+# 2. Install dependencies
+npm install
+
+# 3. Run server
+npm start
+
+# 4. Open
+http://localhost:3000/XX_module_b/login
