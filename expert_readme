@@ -1,0 +1,27 @@
+WORLD SKILLS MODULE B - EXECUTION GUIDE
+
+Requirements:
+- Node.js (v18+)
+- MySQL
+- npm
+
+Setup Steps:
+1. Import database.sql into MySQL
+2. Edit config/database.js (username/password)
+3. Run: npm install
+4. Run: npm start
+5. Open: http://localhost:3000/XX_module_b/login
+
+Admin Passphrase:
+admin
+
+Features Implemented:
+✔ Admin login (401 protected)
+✔ Companies Management
+✔ Products FULL CRUD (GTIN validated & unique)
+✔ Image Upload
+✔ JSON API (pagination + search)
+✔ GTIN Bulk Verification
+✔ Public Product Page (/01/GTIN)
+✔ Hidden products return 404 in API
+✔ GTIN indexed + FK constraints
