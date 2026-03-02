@@ -1,0 +1,30 @@
+XX_module_b/
+│
+├── app.js
+├── package.json
+├── database.sql
+├── expert_readme.txt
+│
+├── config/
+│   └── database.js
+│
+├── middleware/
+│   └── auth.js
+│
+├── models/
+│   ├── Company.js
+│   └── Product.js
+│
+├── routes/
+│   ├── admin.js
+│   ├── companies.js
+│   ├── products.js   (FULL CRUD)
+│   ├── api.js
+│   └── public.js
+│
+├── views/
+│   ├── login.ejs
+│   └── verify.ejs
+│
+└── public/
+    └── uploads/
